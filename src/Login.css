@@ -1,0 +1,160 @@
+
+html, body{
+	margin: 0;
+	min-height: 100%;
+	min-width: 100%;
+	overflow: hidden;
+	background: rgba(0,0,0,0.10);
+}
+
+.login_box{
+	/*positioning*/
+	position:absolute;
+	/*centering absolute*/
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	margin:auto;
+	
+	/*sizing*/
+	height: 450px;
+	width: 750px;
+	
+	/*decoration*/
+	background: #ffffff;
+	border-radius: 2px;
+	overflow: hidden;
+}
+
+.part_img{
+	/*positioning*/
+	position:relative;
+	float:left;
+	
+	/*sizing*/
+	height:100%;
+	width:40%;
+	
+	/*decoration*/
+	overflow: hidden;
+	background: #00adca;
+	
+	transition: all 1s ease-in-out
+}
+
+.part_field{
+	/*positioning*/
+	position: relative;
+	float: left;
+	/*sizing*/
+	height:100%;
+	width:60%;
+	
+	transition: all 1s ease-in-out;
+}
+
+content_login{
+	/*positioning*/
+	position: absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	margin:auto;
+	
+	/*sizing*/
+	height: fit-content;
+	width: fit-content;
+}
+
+#content_up::before{
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 32px;
+	
+	/*sizing*/
+	height: fit-content;
+	width:100%;	
+	
+	/*font*/
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#content_in::before{
+	
+	/*position*/
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 32px;
+	
+	/*sizing*/
+	height: fit-content;
+	width:100%;	
+	
+	/*font*/
+	font-size: 18px;
+	font-weight: bold;
+}
+
+form > *{
+	display:block;
+}
+
+input{
+	/*position*/
+	margin-bottom: 24px;
+	
+	/*sizing*/
+	height: 28px;
+	width: 300px;
+	box-sizing: border-box;
+	
+	/*decoration*/
+	outline: none;
+	
+	/*border*/
+	border: 0px;
+	border-bottom: 1px solid #D2D4D2;
+	
+	/*animations and stuff*/
+	transition: all 0.5s ease;
+}
+input:focus{border-bottom: 2px solid #00adca;}
+
+lastline{
+	/*positioning*/
+	margin-top: 32px;
+	
+	/*sizing*/
+	height:fit-content;
+	width: 100%;
+	
+	/*font*/
+	font-size: 11px;
+}
+
+
+
+button{
+	margin-top: 14px;
+   margin-left:100px;
+	height:32px;
+	width: 96px;
+	cursor: pointer;
+	outline: none;
+	color: #ffffff;
+	border:0;
+	border-radius: 2px;
+	background: #00adca;
+	
+	/*animation and stuff*/
+	transition: all 0.25s ease;
+}
+button:hover{transform: scale(1.05);}
+.Add{
+    color:"white";
+    font-size:19;
+    text-align: center;
+}
