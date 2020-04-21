@@ -1,2 +1,2 @@
-### This application gets launch on porn number 3000
+### Application will run on port 3000
 Example: http://localhost:3000
